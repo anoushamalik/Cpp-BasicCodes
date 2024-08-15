@@ -34,3 +34,19 @@ Processing: The program uses the ceil() function from the <cmath> library to cal
 ### Output:
 
 The program displays the ceiling value of the entered number.
+
+### 4-Shape Identifier
+This program takes the coordinates of four points as input and determines whether the points form a square, rectangle, or parallelogram.
+
+### How It Works
+Input: 
+The user is prompted to enter the coordinates of four points in the Cartesian plane.
+Processing:
+The program calculates the lengths of the four sides formed by these points using the distance formula.
+It then checks:
+If opposite sides are equal, the points form a rectangle or parallelogram.
+If all sides are equal, the points form a square.
+
+### Output:
+The program will display whether the points form a square, rectangle, or parallelogram.
+
