@@ -60,3 +60,14 @@ The floor value of a number is the largest integer less than or equal to the giv
 ### Output: 
 The program displays the floor value of the entered decimal number.
 
+### 6- Max and Min Number Comparator
+This program compares two numbers entered by the user to determine which is larger and which is smaller. It also counts how many times the user entered the maximum and minimum values. The program continues to accept input until the user enters -1 for either number, which stops the program.
+
+### How It Works
+Input: The user is prompted to enter two numbers.
+Processing: The program compares the two numbers to determine which is greater (maximum) and which is lesser (minimum).
+It then displays the maximum and minimum values.
+The program increments counters for maximum and minimum entries each time a comparison is made.
+The loop continues until the user enters -1 for either number.
+### Output: 
+The program displays the maximum and minimum values for each pair of numbers entered, and at the end, it displays the total number of maximum and minimum entries.
