@@ -35,7 +35,7 @@ Processing: The program uses the ceil() function from the <cmath> library to cal
 
 The program displays the ceiling value of the entered number.
 
-### 4-Shape Identifier
+### 4- Shape Identifier
 This program takes the coordinates of four points as input and determines whether the points form a square, rectangle, or parallelogram.
 
 ### How It Works
@@ -49,4 +49,14 @@ If all sides are equal, the points form a square.
 
 ### Output:
 The program will display whether the points form a square, rectangle, or parallelogram.
+
+### 5- Floor Value Calculator
+This program computes the floor value of a given decimal number using the floor() function in C++.
+
+How It Works
+Input: The user is prompted to enter a decimal number.
+Processing: The program uses the floor() function from the <cmath> library to compute the floor value.
+The floor value of a number is the largest integer less than or equal to the given number.
+### Output: 
+The program displays the floor value of the entered decimal number.
 
