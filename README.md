@@ -13,3 +13,13 @@ Scissors beat Paper.
 Paper beats Rock.
 Invalid Input: 
 If either player enters a number outside the range 1-3, the program will display an error message indicating that the input is invalid.
+
+### 2- Palindrome Checker
+This program checks if a given number is a palindrome. A palindrome is a number that reads the same backward as forward.
+### How It Works
+Input: The user is prompted to enter a number.
+Processing: The program calculates the reverse of the given number and compares it to the original number to determine if it is a palindrome.
+
+### Output:
+The reverse of the entered number is displayed.
+The program indicates whether the number is a palindrome or not.
