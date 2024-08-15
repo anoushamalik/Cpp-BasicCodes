@@ -23,3 +23,14 @@ Processing: The program calculates the reverse of the given number and compares 
 ### Output:
 The reverse of the entered number is displayed.
 The program indicates whether the number is a palindrome or not.
+
+### 3- Ceiling Value Calculator
+This program computes the ceiling value of a floating-point number entered by the user. The ceiling of a number is the smallest integer greater than or equal to that number.
+
+### How It Works
+Input: The user is prompted to enter a floating-point number.
+Processing: The program uses the ceil() function from the <cmath> library to calculate the ceiling value of the given number.
+
+### Output:
+
+The program displays the ceiling value of the entered number.
