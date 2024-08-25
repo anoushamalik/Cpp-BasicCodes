@@ -81,3 +81,12 @@ This program compares two numbers entered by the user to determine which is larg
 - **Output:**
   - The program displays the maximum and minimum values for each pair of numbers entered.
   - At the end, it displays the total number of maximum and minimum entries.
+ 
+## Contributing
+
+Feel free to contribute by creating issues or submitting pull requests.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
