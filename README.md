@@ -5,6 +5,8 @@
 
 ### Overview
 This program counts the number of even and odd numbers in an array provided by the user.
+### Description
+**File name** : counter.cpp
 
 ### How It Works
 - **Input:** The user is prompted to enter the size of the array and then the elements of the array.
