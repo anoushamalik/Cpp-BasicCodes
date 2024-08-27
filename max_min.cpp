@@ -10,8 +10,6 @@ int main()
 do
 {
 
-
-
     cout<<"Enter the 1st number"<<endl;
     cin>>x;
     cout<<"Enter the 2nd number"<<endl;
