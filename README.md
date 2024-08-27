@@ -1,7 +1,43 @@
 
 # C++ Programming Examples
 
-## 1. Rock-Paper-Scissors Game
+## 1. Even and Odd Counter
+
+### Overview
+This program counts the number of even and odd numbers in an array provided by the user.
+
+### How It Works
+- **Input:** The user is prompted to enter the size of the array and then the elements of the array.
+- **Processing:** The program iterates through the array, checking each element to see if it is even or odd.
+- **Output:**
+  - The total number of even numbers in the array.
+  - The total number of odd numbers in the array.
+
+## 2. Basic Calculator
+
+### Overview
+This program functions as a basic calculator that can perform addition, subtraction, multiplication, and division between two numbers.
+
+### How It Works
+- **Input:** The user is prompted to enter an operator (`+`, `-`, `*`, `/`) and two numbers.
+- **Processing:** The program uses a `switch` statement to perform the operation corresponding to the operator.
+- **Output:**
+  - The result of the arithmetic operation based on the user's input.
+- **Invalid Input:** If an invalid operator is entered, the program displays an error message.
+
+## 3. Month Days Finder
+
+### Overview
+This program determines the number of days in a month based on the month number entered by the user.
+
+### How It Works
+- **Input:** The user is prompted to enter the number of the month (1-12).
+- **Processing:** The program uses a `switch` statement to match the month number with the corresponding month and displays the number of days in that month.
+- **Output:**
+  - The name of the month and the number of days it contains.
+- **Invalid Input:** If the user enters a number outside the range `1-12`, the program displays an error message.
+
+## 4. Rock-Paper-Scissors Game
 
 ### Overview
 This program simulates a classic Rock-Paper-Scissors game between two players.
@@ -16,10 +52,9 @@ This program simulates a classic Rock-Paper-Scissors game between two players.
   - Rock beats Scissors.
   - Scissors beat Paper.
   - Paper beats Rock.
-- **Invalid Input:**
-  - If either player enters a number outside the range `1-3`, the program will display an error message indicating that the input is invalid.
+- **Invalid Input:** If either player enters a number outside the range `1-3`, the program will display an error message indicating that the input is invalid.
 
-## 2. Palindrome Checker
+## 5. Palindrome Checker
 
 ### Overview
 This program checks if a given number is a palindrome. A palindrome is a number that reads the same backward as forward.
@@ -31,7 +66,7 @@ This program checks if a given number is a palindrome. A palindrome is a number 
   - The reverse of the entered number is displayed.
   - The program indicates whether the number is a palindrome or not.
 
-## 3. Ceiling Value Calculator
+## 6. Ceiling Value Calculator
 
 ### Overview
 This program computes the ceiling value of a floating-point number entered by the user. The ceiling of a number is the smallest integer greater than or equal to that number.
@@ -41,7 +76,7 @@ This program computes the ceiling value of a floating-point number entered by th
 - **Processing:** The program uses the `ceil()` function from the `<cmath>` library to calculate the ceiling value of the given number.
 - **Output:** The program displays the ceiling value of the entered number.
 
-## 4. Shape Identifier
+## 7. Shape Identifier
 
 ### Overview
 This program takes the coordinates of four points as input and determines whether the points form a square, rectangle, or parallelogram.
@@ -55,7 +90,7 @@ This program takes the coordinates of four points as input and determines whethe
     - If all sides are equal, the points form a square.
 - **Output:** The program will display whether the points form a square, rectangle, or parallelogram.
 
-## 5. Floor Value Calculator
+## 8. Floor Value Calculator
 
 ### Overview
 This program computes the floor value of a given decimal number using the `floor()` function in C++.
@@ -66,7 +101,7 @@ This program computes the floor value of a given decimal number using the `floor
   - The floor value of a number is the largest integer less than or equal to the given number.
 - **Output:** The program displays the floor value of the entered decimal number.
 
-## 6. Max and Min Number Comparator
+## 9. Max and Min Number Comparator
 
 ### Overview
 This program compares two numbers entered by the user to determine which is larger and which is smaller. It also counts how many times the user entered the maximum and minimum values. The program continues to accept input until the user enters `-1` for either number, which stops the program.
@@ -81,7 +116,7 @@ This program compares two numbers entered by the user to determine which is larg
 - **Output:**
   - The program displays the maximum and minimum values for each pair of numbers entered.
   - At the end, it displays the total number of maximum and minimum entries.
- 
+
 ## Contributing
 
 Feel free to contribute by creating issues or submitting pull requests.
@@ -89,4 +124,5 @@ Feel free to contribute by creating issues or submitting pull requests.
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
