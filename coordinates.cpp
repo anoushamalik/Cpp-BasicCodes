@@ -30,7 +30,7 @@ int main()
     }
     else if(a==c && b==d)
     {
-        cout<<"The given points are of RECTANGLE or PARRALLELOGRAM"<<endl;
+        cout<<"The given points are of RECTANGLE or PARALLELOGRAM"<<endl;
     }
     return 0;
 }
